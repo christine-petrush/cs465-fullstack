@@ -12,18 +12,18 @@ const connect = () => {
 
 // Monitor connection events
 mongoose.connection.on('connected', () => {
- console.log(`Mongoose connected to ${dbURI}`);
+    console.log(`Mongoose connected to ${dbURI}`);
 });
 mongoose.connection.on('error', err => {
- console.log('Mongoose connection error: ', err);
+    console.log('Mongoose connection error: ', err);
 });
 mongoose.connection.on('disconnected', () => {
- console.log('Mongoose disconnected');
-});
-// Windows specific listner
-if(process.platform === 'win32'){
-    const r1 = readLine.createInterface({
-        input: process.stdin,
+    console.log('Mongoose disconnected');
+    });
+    // Windows specific listner
+    if(process.platform === 'win32'){
+        const r1 = readLine.createInterface({
+            input: process.stdin,
         output: process.stdout
     });
     r1.on('SIGINT', () => {
