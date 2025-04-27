@@ -1,7 +1,7 @@
 # cs465-fullstack
 CS-465 Full Stack Development with MEAN
 # Architecture:
-- Compare and contrast the types of frontend development you used in your full stack projects, including Express HTML, JavaScript, and the singel-page application (SPA)
+- Compare and contrast the types of frontend development you used in your full stack projects, including Express HTML, JavaScript, and the single-page application (SPA)
 - Why did the backend use a NoSQL database?
 # Functionality:
 - How is JSON different from JavaScript and how does JSON tie together the frontend and backend development pieces?
