@@ -2,7 +2,9 @@
 CS-465 Full Stack Development with MEAN
 # Architecture:
 - Compare and contrast the types of frontend development you used in your full stack projects, including Express HTML, JavaScript, and the single-page application (SPA)
-- Why did the backend use a NoSQL database?
+- Why did the backend use a NoSQL MongoDB database?
+    -NoSQL databases are simple to maintain. It is open-source, less costly to use, and highly scalable. NoSQL systems allow you to work with different data structures     
+    wihin a database making it easier to make modifications. 
 # Functionality:
 - How is JSON different from JavaScript and how does JSON tie together the frontend and backend development pieces?
 - Provide instances in the full stack process when you refactored code to improve functionality and efficiencies, and name the benefits that come from reusable user interface (UI) components.
