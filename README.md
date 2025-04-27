@@ -2,10 +2,8 @@
 CS-465 Full Stack Development with MEAN
 # Architecture:
 - Compare and contrast the types of frontend development you used in your full stack projects, including Express HTML, JavaScript, and the single-page application (SPA).
- 
     <br/>Express HTML can be used for various purposes such as serving static HTML pages to the browser, rendering HTML pages on the server and sending the finished HTML to the client, integrating with templating engines, creating REST APIs that the front-end can use to request and retrieve data, serving HTML pages that contain dynamic content. JavaScript allows you to manipulate web page elements, handle events, perform calculations, and interact with server-side resources. You need JavaScript to make "dynamic" interactions on the webpage like changing the document as the user is looking at it. A Single-page application (SPA) loads a single HTML page and then dynamically updates the page content using JavaScript, rather than loading entirely new pages for each user interaction. This improves user experience by providing a smoother and more responsive interface.
 - Why did the backend use a NoSQL MongoDB database?
-    
     <br/>NoSQL databases are simple to maintain. It is open-source, less costly to use, and highly scalable. NoSQL systems allow you to work with different data structures wihin a database making it easier to make modifications. 
 # Functionality:
 - How is JSON different from JavaScript and how does JSON tie together the frontend and backend development pieces?
