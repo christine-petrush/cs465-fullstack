@@ -3,10 +3,11 @@ CS-465 Full Stack Development with MEAN
 # Architecture:
 - Compare and contrast the types of frontend development you used in your full stack projects, including Express HTML, JavaScript, and the single-page application (SPA)
 - Why did the backend use a NoSQL MongoDB database?
-    -NoSQL databases are simple to maintain. It is open-source, less costly to use, and highly scalable. NoSQL systems allow you to work with different data structures     
+    NoSQL databases are simple to maintain. It is open-source, less costly to use, and highly scalable. NoSQL systems allow you to work with different data structures     
     wihin a database making it easier to make modifications. 
 # Functionality:
 - How is JSON different from JavaScript and how does JSON tie together the frontend and backend development pieces?
+      #JavaScript is a programming language. It is one of the core technologies of the World Wide Web. It brings web pages to life. JSON is short for JavaScript Object          Notation. It is a data format that is independent of any programming language. JSON is a lightweight format for storing and transporting data. One of the biggest         differences between JSON and JavaScript is the dependency on a programming language. JavaScript objects are completely dependent on JavaScript. Whereas JSON is           supported by more than 50 different programming languages. JSON data can only be presented in text. One final difference is that JSON is presented in a string.           JavaScript objects can contain strings, but they are objects which are more complex than strings. Through the use of APIs and JSON the frontend and backend are           tied together. RESTful APIs use JSON to receive requests and send responses.
 - Provide instances in the full stack process when you refactored code to improve functionality and efficiencies, and name the benefits that come from reusable user interface (UI) components.
 # Testing:
 - Methods for request and retrieval necessitate various types of API testing of endpoints, in addition to the difficulties of testing with added layers of security. Explain your understanting of methods, endpoints, and security in a full stack application.
