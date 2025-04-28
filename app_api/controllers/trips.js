@@ -3,7 +3,8 @@ const Trip = require('../models/travlr'); //Register model
 const Model = mongoose.model('trips');
 
 
-const User = mongoose.model('User');                 
+//const User = mongoose.model('users');
+const User = require('../models/user');                 
 const getUser = (req, res, callback) => {
   if (req.payload && req.payload.email) {            
     User
@@ -152,8 +153,8 @@ const tripsUpdateTrip = async(req, res) => {
     );
 } 
     // Uncomment for debugging
-    console.log(req.params);
-    console.log(req.body);
+    //console.log(req.params);
+    //console.log(req.body);
 
 module.exports = {
     tripsList,
